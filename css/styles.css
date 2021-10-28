@@ -1,0 +1,131 @@
+/*
+      Author:   Liam Eller
+      Date:      07/03/22
+      Purpose:  CSS template
+*/
+body {
+      background-color: black;
+      color: rgb(255, 198, 113);
+      font-family: Arial, Veranda, sans-serif;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(46, 46, 46);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li.nav {
+      float: left;
+    }
+    
+    li.nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li.nav a:hover {
+      background-color: rgb(22, 19, 19);
+    }
+
+    a.active {
+      background-color: rgb(22, 19, 19);
+    }
+
+    img {
+      max-height: 300px;
+      max-width: 300px;
+      height:auto;
+      width:auto;
+      display: block;
+      margin: auto;
+    }
+
+    h1 {
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: rgb(223, 100, 0);
+      text-align: center;
+      line-height: 200px;
+      padding-bottom: 20px;
+    }
+
+    h2{
+      font-family: 'Times New Roman', Times, serif;
+      color: orange;
+      text-align: center;
+    }
+   
+    h3{
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 27%;
+    }
+
+    p{
+     color: tan;
+     text-align: center;
+     letter-spacing: 3px;
+     line-height: 20pt;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    p.hardware {
+      text-align: left;
+      margin-left: 19%;
+      margin-right: 19%;
+    }
+
+    a:link {
+      text-decoration: underline;
+      color: #eafdfc;
+    }
+
+    a:visited {
+      text-decoration: underline;
+      color: #5ff0e4;
+    }
+
+
+    a:hover {
+      text-decoration: underline;
+      color: rgb(0, 225, 255);
+    }
+
+    a:active {
+      text-decoration: underline;
+      color: rgb(0, 89, 255)
+    }
+
+    a{
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    #clr{
+      margin-left: 656px;
+      margin-right: auto;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: white;
+    }
+  
+    ol{
+      margin-left: 25%;
+    }
+
+     hr{
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+    }
+
